@@ -182,7 +182,7 @@
     COUNT(1)
     FROM  mmall_user
     WHERE username = #{username}
-    AND   question = #{question}}
+    AND   question = #{question}
     AND   answer   = #{answer}
   </select>
 
